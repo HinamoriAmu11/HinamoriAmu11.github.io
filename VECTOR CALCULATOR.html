@@ -2,21 +2,44 @@
 <html>
 <head>
 	<title>vector calculator</title>
-	<script src="jscode.js"></script>
-	<link rel="stylesheet" type="text/css" href="csscode.css">
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body id="bg">
 
+<p class="ziti">VECTOR CALCULATOR</p>
 
-<button onclick="dot2d()">dot mutiply in a plane</button>
+
+<div>
+
+		<div class="hoverr" onclick="dot2d()" ><br>Dot mutiply in a plane</div>
 
 
-<button onclick="dot3d()">dot mutiply in a space</button>
+		<div class="hoverr" onclick="dot3d()"><br>Dot mutiply in a space</div>
+		<div class="hoverr" onclick="cross()"><br>Cross mutiply in a space</div>
 
-<button onclick="cross()">cross mutiply in a space</button>
+</div>
 
-<input type="text" name="fname">
+<div class="formula">
+	<h1>Formula:</h1>
+	<h2>
+		[a1,b1]·[a2,b2]=a1*a2+b1*b2
+	</h2>
+
+
+
+	<h2>
+		[a1,b1,c1]·[a2,b2,c1]=a1*a2+b1*b2+c1*c2
+	</h2>
+
+
+	<h2>
+		[a1,b1,c1]×[a2,b2,c1]=[b1c2-c1b2,c1a2-a1c2,a1b2-b1a2]
+	</h2>
+
+
+</div>
 
 
 

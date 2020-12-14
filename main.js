@@ -11,7 +11,7 @@ function dot2d(){
 	var c=prompt("please enter the first number of your second vector");
 	var d=prompt("please enter the second number of your second vector");
 	var aa=a*c+b*d;
-	alert("the value of ["+a+","+b+"] dot product ["+c+","+d+"] is "+aa)
+	alert("the value of ["+a+","+b+"] dot products ["+c+","+d+"] is "+aa)
 }
 
 function dot3d(){
@@ -22,7 +22,7 @@ function dot3d(){
 	var e=prompt("please enter the second number of your second vector");
 	var f=prompt("please enter the third number of your second vector");
 	var aa=a*d+b*e+c*f;
-	alert("the value is "+aa)
+	alert("the value of ["+a+","+b+","+c+"] dot products ["+d+","+e+","+f+"] is "+aa)
 
 }
 

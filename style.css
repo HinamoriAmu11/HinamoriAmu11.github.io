@@ -1,8 +1,11 @@
-.row:after{
-	
+.row{
+	position: fixed;
+	top: 3%;
+	width: 95%;
 	display: table;
 	clear: both;
 	content: ""
+
 }
 .column{
 	float: left;
@@ -95,8 +98,9 @@ th{
 
 
 .anjian{
+	position: sticky;
+	bottom: 80px;
 	float: right;
-	margin-top: 45%;
 }
 
 
@@ -133,3 +137,60 @@ th{
 	font-size: 1.5em;
 }
 
+
+
+.hoverr{
+	width: 200px;
+	height: 180px;
+	margin: 10px;
+	background-color: rgba(187,163,185,30%);
+	transition: transform 0.5s;
+	font-size: 2em;
+	font-family: cursive;
+	text-align: center;
+	color: white;
+}
+
+.hoverr:hover{
+	transform: scale(1.1);
+	background-color: rgb(239,197,149);
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.formula{
+	position: absolute;
+	top: 23%;
+	right: 15%;
+	width: 65%;
+	height: 70%;
+	color: rgb(150,147,120);
+	background-color: rgba(187,163,185,30%);
+}
+
+.ziti{
+	font-size: 3em;
+	color: rgb(150,147,120);
+}
+
+#daxiao{
+	width: 15%;
+	margin: 30px;
+}
+
+#bg1111{
+	background-image: url(背景1111.jpg);
+}
+
+.meme{
+	font-size: 7em;
+	font-family: cursive;
+	color: orange;
+}
+
+#daxiao1{
+	margin: 70px;
+}
