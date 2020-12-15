@@ -39,7 +39,7 @@ div{
 .wzbj{
 	background: rgba(500,500,500,0.7);
 	margin-top:125px;
-	margin-left:32.8px;
+	margin-left:10px;
 	width: 64.3%;
 	height: 150%;
 	position: absolute;
@@ -49,7 +49,7 @@ div{
 .dark-mode2{
 	background: rgba(41,43,64,0.7);
 	margin-top:125px;
-	margin-left:32.8px;
+	margin-left:10px;
 	width: 64.3%;
 	height: 150%;
 	position: absolute;
@@ -194,3 +194,84 @@ a{
 #daxiao1{
 	margin: 70px;
 }
+
+.row1{
+	position: fixed;
+	top: 3%;
+	width: 100%;
+	display: table;
+	clear: both;
+	content: ""
+
+}
+.column1{
+	float: left;
+	width: 33.3333%;
+	  transition: transform 0.5s;
+	height: 40px;
+	background-color: rgb(239,228,176);
+  color:white;
+  font-size:2em;
+}
+.column1:hover{
+	transform: scale(1.5);
+}
+
+#bgaward{
+	background-image: none;
+	background-color: white;
+}
+
+.bjaward{
+	background: rgba(239,228,176,0.3);
+	margin-top: 50px;
+	margin-left: 168px;
+	width: 70%;
+	height: 320%;
+	color: rgb(41,43,64);
+	position: absolute;
+	z-index: 2;
+}
+
+.award1{
+	width: 30%;
+}
+
+
+
+
+
+.home1{
+	
+	position: fixed;
+	width: 70px;
+	height: 50px;
+	 transition: transform 0.5s;
+	background-color: rgb(239,228,176);
+
+}
+	
+.home1:hover{
+	transform: scale(1.5);
+}
+
+.face1{
+	
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	 transition: transform 0.5s;
+	background-color: rgb(239,228,176);
+
+}
+	
+.face1:hover{
+	transform: scale(1.1);
+}
+.anjian1{
+	position: fixed;
+	margin-bottom: 300px;
+	float: right;
+	
+}
+
