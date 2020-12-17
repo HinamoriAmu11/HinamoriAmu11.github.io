@@ -82,3 +82,9 @@ function facee(){
   break;
      }
  }
+
+
+ function yanzheng(){
+  var a=prompt("please type the verification code 112233 in case you are a robot");
+  if(a==112233) {alert("you are not robot");}else{window.location.href="index.html";}
+}
